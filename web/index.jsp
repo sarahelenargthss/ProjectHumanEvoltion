@@ -40,7 +40,7 @@
     <body>
 
         <div id="barraLogo" >
-            <img id="logo" alt="logo" src="imagens/pgrande.png"/>
+            <a href="index.jsp"><img id="logo" alt="logo" src="imagens/pgrande.png"/></a>
 
             <%
                 boolean verificaLogin = false;

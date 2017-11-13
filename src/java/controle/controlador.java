@@ -29,7 +29,6 @@ public class controlador extends HttpServlet {
             HttpSession ses = request.getSession(true);
 
             UsuarioDao uDao = new UsuarioDao();
-//            UsuarioDto uDto = uDao.retornaUsuario((String) ses.getAttribute("logado"));
 
             switch (op) {
                 case "fazlogin": {
@@ -132,8 +131,16 @@ public class controlador extends HttpServlet {
                 case "novoJogo": {
                     UsuarioDto uDto = uDao.retornaUsuario((String) ses.getAttribute("logado"));
                     uDto.setCaminho("1a");
-                    uDao.atualizaUsuario(uDto);
+                    if (!uDao.atualizaUsuario(uDto)) {
+                        ses.setAttribute("mensagem", "Ocorreu um erro ao ao apagar seus dados antigos!");
+                        response.sendRedirect("mensagem.jsp");
+                    }
                     break;
+                }
+                case "verificaNovoJogo": {
+                    boolean v = ((String) ses.getAttribute("ob")).equals("novoJogo");
+                    ses.setAttribute("ob", "");
+                    out.println(v);
                 }
                 case "retornaCenario": {
                     UsuarioDto uDto = uDao.retornaUsuario((String) ses.getAttribute("logado"));
@@ -162,7 +169,6 @@ public class controlador extends HttpServlet {
                     break;
                 }
                 default:
-                    //mostra erro
                     ses.setAttribute("mensagem", "Ocorreu um erro no controlador e a opção '" + op + "' não pôde ser realizada!");
                     response.sendRedirect("mensagem.jsp");
                     break;

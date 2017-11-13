@@ -79,6 +79,10 @@
                                 $("#confirmNovo").css("display", "none");
                                 $("#telaJogo").css("display", "block");
                                 $("#inicial").css("display", "none");
+                                $.get("controlador?op=retornaParagrafo", function (paragrafo) {
+                                    verificaParagrafo(paragrafo);
+                                    montaCenario();
+                                });
                             });
                         });
 
