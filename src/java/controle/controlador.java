@@ -71,6 +71,12 @@ public class controlador extends HttpServlet {
                     ses.setAttribute("logado", "");
                     response.sendRedirect("index.jsp");
                     break;
+                case "verificaLC":
+                    if(!((String)ses.getAttribute("eCad")).equals("") || !((String)ses.getAttribute("erroLogin")).equals("")){
+                        out.println("erro");
+                    }else{
+                        out.println("");
+                    }
                 case "fazCadastro":
                     if (Util.validaString(request.getParameter("user")) || Util.validaString(request.getParameter("senha").trim()) || Util.validaString(request.getParameter("senhaConfirm"))) {
                         ses.setAttribute("eCad", "Cadastro: Todos os campos devem ser preenchidos!");

@@ -192,14 +192,13 @@
                     modal.style.display = "none";
                 }
             };
-//            try{
-//            ses = request.getSession(true);
-//            if (!((String)ses.getAttribute("eCad")).equals("")){
-//            modal.style.display = "block";
-//            }
-//            } catch (Exception e) {
-//            ses.setAttribute("eCad", "");
-//            }
+            
+            $get("controlador?op=verificaLC" , function(e){
+                if(e.equals("erro")){
+                    modal.style.display = "block";
+                }
+            });
+//            if (!((String) ses.getAttribute("eCad")).equals("")) {
         </script>
 
     </body>
