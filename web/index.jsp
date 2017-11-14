@@ -175,7 +175,6 @@
             Todos os direitos reservados.
         </div>
 
-
         <script>
 
             var modal = document.getElementById('caixaLogin');
@@ -193,12 +192,11 @@
                 }
             };
             
-            $get("controlador?op=verificaLC" , function(e){
-                if(e.equals("erro")){
-                    modal.style.display = "block";
-                }
-            });
-//            if (!((String) ses.getAttribute("eCad")).equals("")) {
+//            $get("controlador?op=verificaLC" , function(e){
+//                if(e.equals("erro")){
+//                    modal.style.display = "block";
+//                }
+//            });
         </script>
 
     </body>
