@@ -14,11 +14,11 @@
             $(document).ready(
                     function () {
 
-                        $("#conteudo").load("teste.jsp");
+                        $("#conteudo").load("Jogo.jsp");
 
                         $("#jogo").click(
                                 function () {
-                                    $("#conteudo").load("teste.jsp");
+                                    $("#conteudo").load("Jogo.jsp");
                                 }
                         );
                         $("#historia").click(
@@ -31,6 +31,16 @@
                                     $("#conteudo").load("Personagens.jsp");
                                 }
                         );
+
+                        $get("controlador?op=verificaLC", function (ver) {
+                            alert(ver);
+//                            if (ver.indexOf("erro") !== -1) {
+////                    modal.style.display = "block";
+//                                alert("erro");
+//                            } else {
+//                                alert("norm");
+//                            }
+                        });
                     }
 
             );
@@ -191,12 +201,6 @@
                     modal.style.display = "none";
                 }
             };
-            
-//            $get("controlador?op=verificaLC" , function(e){
-//                if(e.equals("erro")){
-//                    modal.style.display = "block";
-//                }
-//            });
         </script>
 
     </body>

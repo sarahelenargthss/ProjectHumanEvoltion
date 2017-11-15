@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import principal.Capitulos;
-import util.Util;
 
 @WebServlet(name = "controlador", urlPatterns = {"/controlador"})
 public class controlador extends HttpServlet {
@@ -72,22 +71,25 @@ public class controlador extends HttpServlet {
                     response.sendRedirect("index.jsp");
                     break;
                 case "verificaLC":
-                    if(!((String)ses.getAttribute("eCad")).equals("") || !((String)ses.getAttribute("erroLogin")).equals("")){
-                        out.println("erro");
-                    }else{
+                    if(((String)ses.getAttribute("eCad")).equals("") && ((String)ses.getAttribute("erroLogin")).equals("")){
                         out.println("");
+                    }else{
+                        out.println("erro");
                     }
                 case "fazCadastro":
-                    if (Util.validaString(request.getParameter("user")) || Util.validaString(request.getParameter("senha").trim()) || Util.validaString(request.getParameter("senhaConfirm"))) {
+                    String user = request.getParameter("user").trim().toLowerCase();
+                    String senha = request.getParameter("senha").trim().toLowerCase();
+                    String confirm = request.getParameter("senhaConfirm").trim().toLowerCase();
+                    if (user.equals("") || senha.equals("") || confirm.equals("")) {
                         ses.setAttribute("eCad", "Cadastro: Todos os campos devem ser preenchidos!");
-                    } else if (!request.getParameter("senha").equals(request.getParameter("senhaConfirm"))) {
+                    } else if (!senha.equals(confirm)) {
                         ses.setAttribute("eCad", "Cadastro: As senhas não são correspondentes!");
                     } else {
                         UsuarioDto uDto = new UsuarioDto();
                         boolean erro = false;
                         try {
-                            uDto.setNome(request.getParameter("user").trim().toLowerCase());
-                            uDto.setSenha(request.getParameter("senha").trim().toLowerCase());
+                            uDto.setNome(user);
+                            uDto.setSenha(senha);
                             uDto.setCaminho("1a");
                         } catch (Exception e) {
                             erro = true;

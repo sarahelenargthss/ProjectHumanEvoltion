@@ -1,101 +1,190 @@
-<%@page import="javax.servlet.http.HttpSession"%>
-<%@page import="dao.UsuarioDao"%>
-<%@page import="dto.UsuarioDto"%>
 <%@page import="principal.Capitulos"%>
+<%@page import="dto.UsuarioDto"%>
+<%@page import="dao.UsuarioDao"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jogo</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Jogo</title>
         <link rel="stylesheet" href="css/style.css">
 
+        <script>
 
-
-
-        <script language="JavaSript">
-            $(document).ready(
-                    function () {
-                        $("#paragrafo").load("Paragrafo.jsp #principal");
-                    }
-
-            );
             function proxParagrafo() {
-                try {
-                    $("#paragrafo").load("Paragrafo.jsp #proximo");
-                } catch (e) {
-                    alert(e);
+                $.get("controlador?op=proxParagrafo", function (paragrafo) {
+                    verificaParagrafo(paragrafo);
+                    montaCenario();
+                });
+            }
+
+            function montaCenario() {
+                $.get("controlador?op=retornaCenario", function (url) {
+                    $("#telaJogo").css("background", "url(" + url + ")");
+                });
+            }
+
+            function verificaParagrafo(p) {
+                if (p.indexOf("opcao=") !== -1) {
+                    var ops = p.substring(p.indexOf("=") + 1, p.length).split("/");
+                    $("#pOp").css("display", "block");
+                    $("#paragrafo").css("display", "none");
+                    $("#next").css("display", "none");
+                    $("#a").text(ops[0]);
+                    $("#b").text(ops[1]);
+                } else {
+                    $("#pOp").css("display", "none");
+                    $("#paragrafo").css("display", "block");
+                    $("#next").css("display", "block");
+                    $("#paragrafo").text(p);
+                    if (p.indexOf("- - FIM - -") !== -1) {
+                        $("#next").css("display", "none");
+                    }
                 }
             }
 
+            $(document).ready(
+                    function () {
+
+                        $.get("controlador?op=retornaParagrafo", function (paragrafo) {
+                            verificaParagrafo(paragrafo);
+                            montaCenario();
+                        });
+
+                        $("#a").click(function () {
+                            $.get("controlador?op=opcaoA", function (paragrafo) {
+                                $.get("controlador?op=retornaParagrafo", function (paragrafo) {
+                                    verificaParagrafo(paragrafo);
+                                    montaCenario();
+                                });
+                            });
+                        });
+
+                        $("#b").click(function () {
+                            $.get("controlador?op=opcaoB", function () {
+                                $.get("controlador?op=retornaParagrafo", function (paragrafo) {
+                                    verificaParagrafo(paragrafo);
+                                    montaCenario();
+                                });
+                            });
+                        });
+
+                        $("#continua").click(function () {
+                            $("#telaJogo").css("display", "block");
+                            $("#inicial").css("display", "none");
+                        });
+
+                        $("#confirmar").click(function () {
+                            $.get("controlador?op=novoJogo", function () {
+                                $("#confirmNovo").css("display", "none");
+                                $("#telaJogo").css("display", "block");
+                                $("#inicial").css("display", "none");
+                                $.get("controlador?op=retornaParagrafo", function (paragrafo) {
+                                    verificaParagrafo(paragrafo);
+                                    montaCenario();
+                                });
+                            });
+                        });
+
+                        var modal = document.getElementById('confirmNovo');
+                        var btnAbre = document.getElementById("novo");
+                        var btnCancela = document.getElementById("cancelar");
+                        var span = document.getElementsByClassName("close")[0];
+                        btnAbre.onclick = function () {
+                            modal.style.display = "block";
+                        };
+
+                        span.onclick = function () {
+                            modal.style.display = "none";
+                        };
+                        btnCancela.onclick = function () {
+                            modal.style.display = "none";
+                        };
+                        window.onclick = function (event) {
+                            if (event.target === modal) {
+                                modal.style.display = "none";
+                            }
+                        };
+
+                    }
+
+            );
 
         </script>
 
-
-
     </head>
-
     <body>
 
-
         <div id="telaJogo">
-            <%
-                try {
-                    HttpSession ses = request.getSession();
-                    UsuarioDao uDao = new UsuarioDao();
-                    UsuarioDto uDto = uDao.retornaUsuario((String) ses.getAttribute("logado"));
-//                    if ((ses.getAttribute("nJ")).equals(true)) {
-//                        uDto.setCaminho("1a");
-//                        uDao.atualizaUsuario(uDto);
-//                    }
-                    Capitulos cap = new Capitulos(uDto.getCaminho());
-                    String paragrafo = cap.retornaParagrafo();
-                    if (paragrafo.indexOf("opcao=") != -1) {
-                        String[] ops = paragrafo.substring(paragrafo.indexOf("=") + 1, paragrafo.length()).split("/");
-            %>
-            <div id="opcoes" style="display: block; background: rgba(255,255,255, 0.8); min-height: 580px; max-height: 580px; padding-top: 220px;">
-                O que fazer:<br>
-                <form method="post" action="controlador">
-                    <input type="hidden" name="op" value="opcao">  
-                    <!-- Testar como o controlador pegaria os valores e saberia qual o btn clicado -->
-                    <!-- Verificar se deve ser feito como button ou como input -->
-                    <button id="1op" onclick="controlador?op = opcao" class="btnOp"><%out.println(ops[0]);%></button>
-                    <br>
-                    <button id="2op" class="btnOp"><%out.println(ops[1]);%></button>
-                    <!--<input type="submit" class="btnOp" value="<% //out.println(ops[0]);%>" />-->
-                </form>
-            </div>
-
-            <%} else {%>
             <div id="caixaTexto">
                 <table style=" background: transparent; border: none;">
                     <tr>
-                        <td>
-                            <a href="#" style="float: left; background: transparent; border: none;" id="back">
-                                <img alt="back" style="float: left;" src="imagens/back.png"/>
-                            </a>
-                        </td>
-                        <td style="min-width: 795px;">
+                        <td style="min-width: 830px;">
                             <div id="paragrafo" style="margin-left: 6px; margin-right: 6px; float: end;">
-                                <%
-
-                                %> 
-
+                                <%                                        %> 
+                            </div>
+                            <div id="pOp" style="display: none; margin-left: 6px; margin-right: 6px; float: end;">
+                                O que fazer: 
+                                <br> 
+                                <button id="a" class="btnOp"></button>
+                                <br>
+                                <button id="b" class="btnOp"></button>
                             </div>
                         </td>
                         <td>
-                            <a href="javascript:proxParagrafo();" style="float: right;  background: transparent; border: none;" id="next">
+                            <a href="javascript:proxParagrafo();" style="display: block; float: right;  background: white; border-radius: 45%; border: none;" id="next">
                                 <img alt="next" style="float: right;" src="imagens/next.png"/>
                             </a>
                         </td>
                     </tr>
                 </table>
             </div>
-            <% }
+        </div>
 
+
+        <div id="inicial">
+            <%
+                HttpSession ses = request.getSession();
+                boolean logado = true;
+                try {
+                    ses = request.getSession(false);
+                    String login = (String) ses.getAttribute("logado");
+                    if (login.equals("")) {
+                        logado = false;
+                    }
                 } catch (Exception e) {
-                    out.println("erro: " + e.getMessage());
-                }%>
+                    logado = false;
+                }
+
+                if (logado) {
+
+
+            %>
+            <div style="padding-top: 240px;">
+                <button name="op" value="jogo" id="continua" class="btn">Continuar Jogo</button>
+                <br>
+                <button id="novo" class="btn">Novo Jogo</button>
+            </div>
+            <%            } else {
+            %>
+            <div style="font: 25px/30px monospace; padding-top: 30%; background: rgba(0,0,0,0.75); color: #fff; height: 600px;">
+                Você precisa estar logado para jogar! <br>
+                Clique no ícone de login no canto superior direito da tela.
+            </div>
+            <%
+                }
+            %>
+        </div>
+
+
+        <div id="confirmNovo" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Seu jogo anterior será perdido! <br /></p>
+                <button  name="op" value="novoJogo" id="confirmar" class="btn">Continuar</button>
+                <br>
+                <button id="cancelar" class="btn">Cancelar</button>
+            </div>
         </div>
 
     </body>

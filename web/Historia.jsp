@@ -15,7 +15,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link rel="stylesheet" href="css/style.css">
-        
+
     </head>
     <body>
         <div id="pagHistoria">
@@ -24,7 +24,6 @@
                 HttpSession ses = request.getSession(true);
                 try {
                     login = (String) ses.getAttribute("logado");
-                    //if (!ses.getAttribute("logado").equals(null)) {
                     if (!login.equals("")) {
                         UsuarioDao uDao = new UsuarioDao();
                         UsuarioDto uDto = uDao.retornaUsuario((String) ses.getAttribute("logado"));
