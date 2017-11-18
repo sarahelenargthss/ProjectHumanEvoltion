@@ -70,12 +70,6 @@ public class controlador extends HttpServlet {
                     ses.setAttribute("logado", "");
                     response.sendRedirect("index.jsp");
                     break;
-                case "verificaLC":
-                    if(((String)ses.getAttribute("eCad")).equals("") && ((String)ses.getAttribute("erroLogin")).equals("")){
-                        out.println("");
-                    }else{
-                        out.println("erro");
-                    }
                 case "fazCadastro":
                     String user = request.getParameter("user").trim().toLowerCase();
                     String senha = request.getParameter("senha").trim().toLowerCase();

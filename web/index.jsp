@@ -32,15 +32,7 @@
                                 }
                         );
 
-                        $get("controlador?op=verificaLC", function (ver) {
-                            alert(ver);
-//                            if (ver.indexOf("erro") !== -1) {
-////                    modal.style.display = "block";
-//                                alert("erro");
-//                            } else {
-//                                alert("norm");
-//                            }
-                        });
+                       
                     }
 
             );
