@@ -15,7 +15,7 @@ public class UsuarioDao {
     
     private static PreparedStatement retornaConexao(String sql) {
         //retorna a conexão com o BD
-        String str = "jdbc:mysql://localhost:3306/phe?" + "user=root&password=root";
+        String str = "jdbc:mysql://localhost:3306/phe?" + "user=root&password=alunoifc";
         PreparedStatement p;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());

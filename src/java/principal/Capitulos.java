@@ -23,38 +23,38 @@ public class Capitulos {
                 //caminho A:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Seguindo um corredor do Centro de Pesquisa, os especialistas se deparam com várias salas. A cada novo espaço o medo e a curiosidade duelavam no domínio sobre suas ações. Por fim, resolveram desbravar o local para buscarem uma ajuda. Eles seguiam juntos pelo corredor, em busca de manter alguma proteção sobre o grupo, em uma prevenção a qualquer coisa que pudesse ter acontecido naquele lugar.";
+                        paragrafo = "background('imagens/cenarios/05.png')Seguindo um corredor do Centro de Pesquisa, os especialistas se deparam com várias salas. A cada novo espaço o medo e a curiosidade duelavam no domínio sobre suas ações. Por fim, resolveram desbravar o local para buscarem uma ajuda. Eles seguiam juntos pelo corredor, em busca de manter alguma proteção sobre o grupo, em uma prevenção a qualquer coisa que pudesse ter acontecido naquele lugar.";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')Após algum tempo passando por várias salas de pesquisa bagunçadas, finalmente o grupo se depara com alguns computadores. Um sentimento de esperança crescia sob o peito de alguns, outros tentaram suprimir até que conseguissem ajuda para sair dali. Logo Jack sai na frente e começa a mexer em um dos computadores que ainda estava inteiro.";
+                        paragrafo = "background('imagens/cenarios/04.png')Após algum tempo passando por várias salas de pesquisa bagunçadas, finalmente o grupo se depara com alguns computadores. Um sentimento de esperança crescia sob o peito de alguns, outros tentaram suprimir até que conseguissem ajuda para sair dali. Logo Jack sai na frente e começa a mexer em um dos computadores que ainda estava inteiro.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')Após alguns segundos teclando e olhando fixamente para a tela, o Professor solta um suspiro pesado e se volta aos outros.\n"
+                        paragrafo = "background('imagens/cenarios/04.png')Após alguns segundos teclando e olhando fixamente para a tela, o Professor solta um suspiro pesado e se volta aos outros.\n"
                                 + "-Sem acesso a Internet ou qualquer meio externo."
                                 + "Os cinco especialistas olham em desespero para Jack. Como sairiam dali? -E isso não é tudo. Deixaram um áudio aberto. Talvez possa ser algo importante…-Tenta uma falsa animação na voz.\n"
                                 + "-Vamos logo então!- Exasperada Abby solta.";
                         break;
                     case 100:
-                        paragrafo = "background('imagens/cenarios/02.png')Quando todos se põe ao redor do computador em um círculo, Jack libera a gravação aumentando o volume do áudio. \"Alerta! Alerta! (Sons agitados seguem o barulho constante de uma sirene. Algumas vozes conversam mas não é possível discernir o que falam.) -Não detonar as pontes de acesso! Não podemos danificar os SH! Um homem gritava com grande agitação na voz.";
+                        paragrafo = "background('imagens/cenarios/04.png')Quando todos se põe ao redor do computador em um círculo, Jack libera a gravação aumentando o volume do áudio. \"Alerta! Alerta! (Sons agitados seguem o barulho constante de uma sirene. Algumas vozes conversam mas não é possível discernir o que falam.) -Não detonar as pontes de acesso! Não podemos danificar os SH! Um homem gritava com grande agitação na voz.";
                         break;
                     case 101:
-                        paragrafo = "background('imagens/cenarios/02.png')Sons de digitação sobrepunham rapidamente a sirene e alguns resmungos que conversavam com o homem. - Já chegaram no portão da ala de segurança, estão ultrapassando! Um grande estrondo é ouvido ao fundo. -Droga!  - Alguma voz feminina libera furiosa.\n"
+                        paragrafo = "background('imagens/cenarios/04.png')Sons de digitação sobrepunham rapidamente a sirene e alguns resmungos que conversavam com o homem. - Já chegaram no portão da ala de segurança, estão ultrapassando! Um grande estrondo é ouvido ao fundo. -Droga!  - Alguma voz feminina libera furiosa.\n"
                                 + "-Sofremos uma falha na segurança! - Um homem ressoa na gravação, seguindo os vários barulhos ao fundo. -Podem utilizar o gás!-Um grande barulho de vidro corta o ambiente.";
                         break;
                     case 102:
-                        paragrafo = "background('imagens/cenarios/02.png')- Agora! - A voz continua a ditar ordens.- Senhor, precisamos fechar a porta manualmente. A senha é IA379936, temos que fech…. - A voz do homem é cortada por ruídos extremamente altos, levando os especialistas a acreditarem que se davam no mesmo ambiente da gravação. \n"
+                        paragrafo = "background('imagens/cenarios/04.png')- Agora! - A voz continua a ditar ordens.- Senhor, precisamos fechar a porta manualmente. A senha é IA379936, temos que fech…. - A voz do homem é cortada por ruídos extremamente altos, levando os especialistas a acreditarem que se davam no mesmo ambiente da gravação. \n"
                                 + "Um silêncio se apodera do áudio por alguns segundos, quando logo depois uma respiração ofegante e passos pesados correndo.";
                         break;
                     case 103:
-                        paragrafo = "background('imagens/cenarios/02.png')Um baque. Os especialistas se assustam. E novamente reina o silêncio no áudio tão estranho que acabaram de ouvir.\n"
+                        paragrafo = "background('imagens/cenarios/04.png')Um baque. Os especialistas se assustam. E novamente reina o silêncio no áudio tão estranho que acabaram de ouvir.\n"
                                 + "Eles se entreolhavam, cada um com a mente em um turbilhão de ideias e teorias, mas uma grande lacuna a ser preenchida. O que era tudo aquilo? Quem seriam os SH? O que estava acontecendo naquele lugar?";
                         break;
                     case 104:
-                        paragrafo = "background('imagens/cenarios/02.png')Por fim, a única dúvida no rosto de todos era :  sobreviveremos?\n"
+                        paragrafo = "background('imagens/cenarios/04.png')Por fim, a única dúvida no rosto de todos era :  sobreviveremos?\n"
                                 + "- Acho melhor anotarmos aquela senha, talvez precisaremos. - Diz Samy pensativa olhando para o computador a sua frente.";
                         break;
                     case 105:
-                        paragrafo = "background('imagens/cenarios/02.png')opcao=Ignorar a discussão e continuar procurando por pistas/Todo mundo quieto!";
+                        paragrafo = "background('imagens/cenarios/04.png')opcao=Ignorar a discussão e continuar procurando por pistas/Todo mundo quieto!";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -168,7 +168,7 @@ public class Capitulos {
                 //caminho C:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Os especialistas olharam uns para os outros. Claramente existiam várias opções que poderiam tomar ali, mas naquele momento eles permaneceram imersos nas vozes que acabaram de ouvir. \n"
+                        paragrafo = "background('imagens/cenarios/05.png')Os especialistas olharam uns para os outros. Claramente existiam várias opções que poderiam tomar ali, mas naquele momento eles permaneceram imersos nas vozes que acabaram de ouvir. \n"
                                 + "Jack logo saiu de sua imersão e começou a vasculhar o local. Ao perceber a movimentação de Jack, Jules resolveu lhe seguir.";
                         break;
                     case 98:
@@ -182,7 +182,7 @@ public class Capitulos {
                                 + "-Acho uma boa ideia, mas podíamos passar por esta ilha aqui, este deve ser o centro de segurança, podem haver coisas lá das quais precisaremos….";
                         break;
                     case 100:
-                        paragrafo = "background('imagens/cenarios/02.png')- Todos olham para Joshua com uma interrogação em suas faces. -Armas! Não sabemos com o que estamos lidando, armas são sempre bem vindas quando se tem uma recepção como aquela que passamos.\n"
+                        paragrafo = "background('imagens/cenarios/05.png')- Todos olham para Joshua com uma interrogação em suas faces. -Armas! Não sabemos com o que estamos lidando, armas são sempre bem vindas quando se tem uma recepção como aquela que passamos.\n"
                                 + "Em um unânime assentir, tomam o mapa e se preparam para seguir ao centro de segurança. Porém, antes de partirem, o grupo ouve sons vindo da entrada do centro de pesquisa.";
                         break;
                     case 101:
@@ -361,63 +361,63 @@ public class Capitulos {
             default:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/cpDown.png')-- Project: Human Evolution --";
+                        paragrafo = "background('imagens/cenarios/00.png')-- Project: Human Evolution --";
                         break;
                     case 98:
                         paragrafo = "background('imagens/cenarios/01.png')O helicóptero com 6 especialistas sobrevoa um território inóspito russo. O voo, totalmente fora de radares, segue pelo denso mar, quase que completamente congelado de Okhotsk. Aparentemente, todos naquele helicóptero faziam parte da pequena porcentagem de seres vivos, naquele ambiente extremo, o que não parecia os assustar.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')Aqueles eram os seis especialistas convidados para participarem de um experimento em uma ilha em algum ponto daquele mar de águas estranhas, o que de suma já era um ponto de desconfiança, visto as grandes dificuldades climáticas que viram até ali.";
+                        paragrafo = "background('imagens/cenarios/10.png')Aqueles eram os seis especialistas convidados para participarem de um experimento em uma ilha em algum ponto daquele mar de águas estranhas, o que de suma já era um ponto de desconfiança, visto as grandes dificuldades climáticas que viram até ali.";
                         break;
                     case 100:
-                        paragrafo = "background('imagens/cenarios/03.png')Os especialistas mantinham uma conversa um tanto tímida, discutindo sobre as últimas novidades do projeto genoma X, depois de tentarem obter quaisquer informações adicionais sobre o experimento que participariam, porém, ao que parecia, todos sabiam exatamente nada. Porém, logo ouviram a voz do piloto:";
+                        paragrafo = "background('imagens/cenarios/14.png')Os especialistas mantinham uma conversa um tanto tímida, discutindo sobre as últimas novidades do projeto genoma X, depois de tentarem obter quaisquer informações adicionais sobre o experimento que participariam, porém, ao que parecia, todos sabiam exatamente nada. Porém, logo ouviram a voz do piloto:";
                         break;
                     case 101:
-                        paragrafo = "background('imagens/cenarios/03.png')\"Por favor doutores, permaneçam encostados nos assentos e com a cabeça entre os joelhos. Daqui poucos minutos passaremos por um campo magnético de retenção, que poderá causar alguma turbulência. Fiquem atentos a possíveis sangramentos nasais. Seguindo todos os procedimentos logo estaremos pousando!";
+                        paragrafo = "background('imagens/cenarios/14.png')\"Por favor doutores, permaneçam encostados nos assentos e com a cabeça entre os joelhos. Daqui poucos minutos passaremos por um campo magnético de retenção, que poderá causar alguma turbulência. Fiquem atentos a possíveis sangramentos nasais. Seguindo todos os procedimentos logo estaremos pousando!";
                         break;
                     case 102:
-                        paragrafo = "background('imagens/cenarios/03.png')Todos logo seguiram as ordens do piloto, curiosos acerca do tal campo de retenção mencionado. Após uma leve turbulência, o helicóptero logo pousou sobre uma área destinada a ele na ilha. Ao descerem e todos tomarem suas bagagens, rapidamente o helicóptero os deixa.";
+                        paragrafo = "background('imagens/cenarios/12.png')Todos logo seguiram as ordens do piloto, curiosos acerca do tal campo de retenção mencionado. Após uma leve turbulência, o helicóptero logo pousou sobre uma área destinada a ele na ilha. Ao descerem e todos tomarem suas bagagens, rapidamente o helicóptero os deixa.";
                         break;
                     case 103:
-                        paragrafo = "background('imagens/cenarios/03.png')-Bem, alguém sabe se vamos ser recepcionados pelo coordenador? - Pergunta Joshua.\n"
+                        paragrafo = "background('imagens/cenarios/13.png')-Bem, alguém sabe se vamos ser recepcionados pelo coordenador? - Pergunta Joshua.\n"
                                 + "-Acho melhor esperarmos aqui. Alguém deve estar vindo nos receber. -Se pronuncia Dra. Abby, ajeitando sua franja castanha sob a testa.";
                         break;
                     case 104:
-                        paragrafo = "background('imagens/cenarios/03.png')-Concordo. Enquanto isso, se não se importam, vou fazer fotos para o portfólio. Olhem como o campo magnético consegue armazenar o clima artificial sem nenhuma evidência externa! Fascinante! Realmente muito curioso! - O homem ruivo pega sua câmera pendurada sobre o pescoço, se afastando do grupo enquanto resmungava ainda mais fascinado sobre o campo magnético.";
+                        paragrafo = "background('imagens/cenarios/13.png')-Concordo. Enquanto isso, se não se importam, vou fazer fotos para o portfólio. Olhem como o campo magnético consegue armazenar o clima artificial sem nenhuma evidência externa! Fascinante! Realmente muito curioso! - O homem ruivo pega sua câmera pendurada sobre o pescoço, se afastando do grupo enquanto resmungava ainda mais fascinado sobre o campo magnético.";
                         break;
                     case 105:
-                        paragrafo = "background('imagens/cenarios/03.png')-Quem é aquele ali mesmo? Não me recordo dele falando qualquer palavra antes....- Pergunta um homem sentado sob sua mala. Seus olhos pequenos quase deixando uma aparência infantil, não fossem suas roupas desgastadas e o cabelo raspado.";
+                        paragrafo = "background('imagens/cenarios/00.png')-Quem é aquele ali mesmo? Não me recordo dele falando qualquer palavra antes....- Pergunta um homem sentado sob sua mala. Seus olhos pequenos quase deixando uma aparência infantil, não fossem suas roupas desgastadas e o cabelo raspado.";
                         break;
                     case 106:
-                        paragrafo = "background('imagens/cenarios/03.png')-Acredito que aquele seja o Professor Jack, doutor Michael. Ouvi dizer que ele é um verdadeiro gênio da genética, apenas acredito que tenha um medo de altura e por isso permaneceu quieto no helicóptero. - Termina risonha a jovem Jules, realçando sua covinha assimétrica na bochecha e balançando seus cabelos pretos repicados.";
+                        paragrafo = "background('imagens/cenarios/00.png')-Acredito que aquele seja o Professor Jack, doutor Michael. Ouvi dizer que ele é um verdadeiro gênio da genética, apenas acredito que tenha um medo de altura e por isso permaneceu quieto no helicóptero. - Termina risonha a jovem Jules, realçando sua covinha assimétrica na bochecha e balançando seus cabelos pretos repicados.";
                         break;
                     case 107:
                         paragrafo = "background('imagens/cenarios/01.png')Após algumas horas de espera, os especialistas cansados resolvem seguir caminho para o centro de pesquisa, acreditando que o coordenador deveria tê-los esquecido.\n"
                                 + "-Isso tudo é tão estranho! Nunca vi um lugar tão quieto. -Resmunga a loira chamada Samy. Alguns assentem, mas ninguém toma coragem em falar mais nada.";
                         break;
                     case 108:
-                        paragrafo = "background('imagens/cenarios/03.png')Logo que alcançam a porta do centro percebem a mesma quebrada. Ansiosos e temerosos decidem entrar rapidamente, mas logo que o fazem estancam em seus lugares.";
+                        paragrafo = "background('imagens/cenarios/02.png')Logo que alcançam a porta do centro percebem a mesma quebrada. Ansiosos e temerosos decidem entrar rapidamente, mas logo que o fazem estancam em seus lugares.";
                         break;
                     case 109:
-                        paragrafo = "background('imagens/cenarios/03.png')O cenário que veem é um completo caos. A recepção tem sua bancada parcialmente quebrada, com uma longa mancha de sangue seguindo em direção a uma poça negra atrás do balcão. De onde estão todos conseguem visualizar uma pálida mão repousando sobre a poça, sendo adornada por vários papéis já manchados ao seu redor.";
+                        paragrafo = "background('imagens/cenarios/02.png')O cenário que veem é um completo caos. A recepção tem sua bancada parcialmente quebrada, com uma longa mancha de sangue seguindo em direção a uma poça negra atrás do balcão. De onde estão todos conseguem visualizar uma pálida mão repousando sobre a poça, sendo adornada por vários papéis já manchados ao seu redor.";
                         break;
                     case 110:
-                        paragrafo = "background('imagens/cenarios/03.png')Com completo choque, cada um segue um caminho, não acreditando no que seus olhos presenciam. Podiam perceber que várias janelas estavam quebradas, uma boa parte detinha alguns tecidos pendurados nos vidros que ainda se mantinham firmes, outras com algumas manchas e respingos de sangue. ";
+                        paragrafo = "background('imagens/cenarios/02.png')Com completo choque, cada um segue um caminho, não acreditando no que seus olhos presenciam. Podiam perceber que várias janelas estavam quebradas, uma boa parte detinha alguns tecidos pendurados nos vidros que ainda se mantinham firmes, outras com algumas manchas e respingos de sangue. ";
                         break;
                     case 111:
-                        paragrafo = "background('imagens/cenarios/03.png')Em um dos cantos, era possível ver o que antes deveria ser um mapa da ilha que estavam. Agora, não passava de vários recortes pendurados em uma moldura na parede.\n"
+                        paragrafo = "background('imagens/cenarios/02.png')Em um dos cantos, era possível ver o que antes deveria ser um mapa da ilha que estavam. Agora, não passava de vários recortes pendurados em uma moldura na parede.\n"
                                 + "-O que aconteceu aqui? - Sussurrou Jules. Apesar do tom baixo, todos puderam ouvi-la claramente, bem como as respirações aceleradas pelo choque.  Se abaixando lentamente Jules toca em um dos corpos jogados no chão, vendo o quão gelado já se encontra.";
                         break;
                     case 112:
-                        paragrafo = "background('imagens/cenarios/03.png')-Acho que encontrei algo!\n"
+                        paragrafo = "background('imagens/cenarios/02.png')-Acho que encontrei algo!\n"
                                 + "Naquele instante o coração de cada um naquela sala errou uma batida, uns pela esperança de uma resposta, outros pelo medo ou ansiedade. Rapidamente todos viram seus olhos em direção ao estranho Professor Jack, se aproximando dele lentamente. ";
                         break;
                     case 113:
-                        paragrafo = "background('imagens/cenarios/03.png')Em seu campo de visão se encontrava um grande monitor, piscando em letras vermelhas o grande perigo que aqueles cientistas estavam prestes a conhecer.\n"
+                        paragrafo = "background('imagens/cenarios/02.png')Em seu campo de visão se encontrava um grande monitor, piscando em letras vermelhas o grande perigo que aqueles cientistas estavam prestes a conhecer.\n"
                                 + "\"Alerta Máximo: Segurança da IA Comprometida!!\"";
                         break;
                     case 114:
-                        paragrafo = "background('imagens/cenarios/04.png')opcao=Procurar meio de comunicação com o continente/Trancar algumas alas do centro para manter certa segurança";
+                        paragrafo = "background('imagens/cenarios/02.png')opcao=Procurar meio de comunicação com o continente/Trancar algumas alas do centro para manter certa segurança";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -559,6 +559,21 @@ public class Capitulos {
                         break;
                     case 99:
                         atualizaCaminhoFrente('d', 3);
+                        break;
+                    case 100:
+                        atualizaCaminhoFrente('e', 3);
+                        break;
+                    case 101:
+                        atualizaCaminhoFrente('f', 3);
+                        break;
+                    case 102:
+                        atualizaCaminhoFrente('g', 3);
+                        break;
+                    case 103:
+                        atualizaCaminhoFrente('h', 3);
+                        break;
+                    case 104:
+                        atualizaCaminhoFrente('i', 3);
                         break;
                 }
                 break;
