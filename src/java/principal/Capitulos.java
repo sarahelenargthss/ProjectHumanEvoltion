@@ -216,16 +216,14 @@ public class Capitulos {
                 //caminho D:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Eles param de falar e ouvem uns barulhos vindos de algum lugar e seguem o barulho, antes pegam algumas \n"
-                                + "armas de seguranças do CP que cuidavam do portão e estão mortos tbm. ";
+                        paragrafo = "background('imagens/cenarios/02.png')O silêncio chegava a ser pertubador. Após a confusão anterior, quando todos decidiram falar ao mesmo tempo, o silêncio que imperava podia ser considerado bem vindo, porém, dadas as circunstâncias, não lhes causava nada além de apreensão. Alguns barulhos estranhos cortaram a atmosfera silenciosa, fazendo Jules, Samy e Michael tremerem levemente em respostas.";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')Não encontram nada quando procuraram pelo barulho, mas encontram o mapa enquanto estavam vasculhando tudo. \n"
-                                + "Vão pelo corredor principal dos laboratórios e o SH sai de um deles e brota atrás. ";
+                        paragrafo = "background('imagens/cenarios/05.png')A troca de olhares entre os seis foi quase imediata. Em uma rápida conversa silenciosa, decidiram procurar a causa dos ruídos. Saíram pelo corredor, revistando as salas que encontravam pelo caminho. Ao chegarem a uma última sala, não encontraram causa alguma para o som, porém, em um dos inúmeros armários da sala havia um mapa. Após pegarem o mapa, continuaram seguindo pelo corredor.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')Eles disparam uns tranquilizantes e quando o outro fica desorientado, eles fogem pro lado contrário, cada \n"
-                                + "vez mais pra dentro do CP.";
+                        paragrafo = "background('imagens/cenarios/05.png')De repente, um homem estranho sai de dentro da sala ao qual tinham acabado de passar. Apreensivos e ligeiramente assustados acabam disparando suas armas. \n"
+                                + "Enquanto percebem que seu alvo tornou-se desorientado, os especialistas aproveitam e fogem para mais adentro do centro de pesquisa.";
                         break;
                     case 100:
                         paragrafo = "background('imagens/cenarios/02.png')opcao=Continuar correndo e continuar atirando/Quebrar o vidro da porta de um laboratório e usá-lo como arma pra tentar matar o SH";
@@ -239,15 +237,28 @@ public class Capitulos {
                 //caminho E:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Saem do CS vão para IA, veem os cativeiros e exploram o lugar até chegar na área de teste (convivência) e \n"
-                                + "encontrar um grupo de SH ";
+                        paragrafo = "background('imagens/cenarios/16.png')Saindo do centro de pesquisa, os especialistas seguem caminho em direção a IA. Após passarem pelo centro de segurança, chegam a tão esperada Ilha Artificial.\n"
+                                + "O lugar era semelhante a uma prisão moderna. Quase como uma habitação razoável. Curiosos como de costume, os especialistas vasculham a área denominada cativeiro. ";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')Dão umas atiradas SH fica puto pega J3 na ponte (voltando pro CS) e mata, os outros correm loucamente pela \n"
-                                + "ponte para o cs;";
+                        paragrafo = "background('imagens/cenarios/16.png')Com poucas descobertas, os especialistas resolvem vasculhar outra parte do prédio. O que lhes esperava na ala de teste não era uma recepção agradável. Um grupo de pessoas estava reunida e logo perceberam a presença dos especialistas. -São eles!- Gritou Jules desesperada. ";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')opcao=Explodir a ponte de acesso a IA/Continua correndo e atirando";
+                        paragrafo = "background('imagens/cenarios/16.png')Rapidamente Jack, Joshua e Samy disparam suas armas contra o grupo enquanto começam a correr em direção a ponte de acesso com o centro de segurança. A respiração acelerada se tornou audível no silêncio que o grupo de super humanos fazia enquanto corria assustadoramente rápido. Logo Joshua consegue abrir o portão, liberando a passagem para Samy e Jack passarem. ";
+                        break;
+                    case 100:
+                        paragrafo = "background('imagens/cenarios/16.png')-Mais rápido Jules! -Grita Michael olhando para trás e percebendo a mulher sendo alcançada pelo homem careca. Jules responde com um olhar deseperado. Sem pensar sobre sua reação, Michael se volta em coreida em direção ao super humano, distraindo-o a tempo de Jules passar pelo portão, sendo o suficiente para assinar sua morte.";
+                        break;
+                    case 101:
+                        paragrafo = "background('imagens/cenarios/16.png')Quando viu que Michael seguia em direção a ela, assustada, esforçou-se para ser mais rápida passando logo pelo portão. Logo que cruzou a linha divisória, Joshua fechou o portão. -O que está fazendo? Michael está lá fora!-Gritou desesperada e sem fôlego. -Ele não está mais lá Jules. -Respondeu Jack lhe segurando os ombros, percebendo o quanto a mulher tremia.";
+                        break;
+                    case 102:
+                        paragrafo = "background('imagens/cenarios/16.png')-Mas….\n"
+                                + "-Jules, Michael escolheu. Agora ele se foi. -Disse Jack com pesar.\n"
+                                + "Sem mais palavras, os cinco especialistas seguem em silêncio para o prédio do centro de segurança.";
+                        break;
+                    case 103:
+                        paragrafo = "background('imagens/cenarios/16.png')opcao=Explodir a ponte de acesso a IA/Continua correndo e atirando";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -258,16 +269,13 @@ public class Capitulos {
                 //caminho F:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Tem as arminha e voltam pro CP";
+                        paragrafo = "background('imagens/cenarios/02.png')Voltando para o centro de pesquisa, os especialistas seguem em grupo, sempre atentos ao seu redor. O grupo a pouco não conhecia um ao outro, agora, a vida de todos dependia da união que tivessem. Chegando ao portão, Joshua toma a frente o abrindo, dando passagem aos outros para entrarem.";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')(não narra pegando as armas, só o caminho até o CP)";
+                        paragrafo = "background('imagens/cenarios/02.png')Quando o portão é novamente fechado, o pequeno clique chama a atenção do ser albino a frente deles. Com um reflexo rápido, se põe em disparada, fugindo do monstro que os perseguia. -O que vamos fazer? - Grita Samy enquanto corre.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')abrem o portão e acham um SH, fogem dele, o que fazer?";
-                        break;
-                    case 100:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/02.png')CONTINUA...";
                         break;
                     default:
                         paragrafo = "nulo";
