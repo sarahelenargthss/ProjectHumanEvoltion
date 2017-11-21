@@ -37,7 +37,7 @@
                     $("#paragrafo").css("display", "block");
                     $("#next").css("display", "block");
                     $("#paragrafo").text(p);
-                    if (p.indexOf("- - FIM - -") !== -1) {
+                    if (p.indexOf("Continua...") !== -1) {
                         $("#next").css("display", "none");
                     }
                 }

@@ -275,7 +275,7 @@ public class Capitulos {
                         paragrafo = "background('imagens/cenarios/02.png')Quando o portão é novamente fechado, o pequeno clique chama a atenção do ser albino a frente deles. Com um reflexo rápido, se põe em disparada, fugindo do monstro que os perseguia. -O que vamos fazer? - Grita Samy enquanto corre.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')CONTINUA...";
+                        paragrafo = "background('imagens/cenarios/02.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -286,15 +286,26 @@ public class Capitulos {
                 //caminho G:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Eles continuam correndo e o SH os alcança, pegando um dos especialistas. J3 é morto, mas eles conseguem um \n"
-                                + "tempo para fugirem. ";
+                        paragrafo = "background('imagens/cenarios/05.png')Correndo com toda a força , os especialistas adentram em um labirinto de corredores, estando cada vez mais perdidos dentro do centro de pesquisa.\n"
+                                + "-Temos que ir mais rápido, ele está nos alcançando!-Grita Jack.\n"
+                                + "-Não sei se consigo correr mais!-Retruca Jules com o rosto vermelho pelo esforço.\n"
+                                + "Logo eles percebem que já era tarde demais. O Super humano estava no alcance de Samy e não tardou até a agarrar pela cintura e pernas, dando uma joelhada em suas costas. ";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')Eles correm pelo corredor até chegarem em uma bifurcação, seguem pela esquerda e chegam na área central \n"
-                                + "onde estavam inicialmente. Pensavam no que fazer.";
+                        paragrafo = "background('imagens/cenarios/05.png')Assim que ouve o quebrar da coluna da loira, o super humano deixa seu corpo inerte ali.\n"
+                                + "Os especialistas, ainda correndo não param para ver o estrago feito em Samy. Não havia alternativa no momento em que este a pegou.\n"
+                                + "Ainda correndo, chegam a uma bifurcação. \n"
+                                + "-Acredito que devemos ir para a esquerda. -Diz Joshua pouco ofegante.\n"
+                                + "-Porque ? - Pergunta Jules totalmente vermelha e suada.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/02.png')-Podemos tentar despistar ele, é meio óbvio que pegariamos o caminho da direita.\n"
+                                + "Assentindo ao comentário de Joshua, seguiram com ele pelo corredor esquerdo, em um ritmo mais lento, porém não menos cuidadoso.\n"
+                                + "Algum tempo depois, chegam novamente a recepção.\n"
+                                + "-O que faremos agora? -Questiona Jack olhando fixamente para o alerta que piscava na tela ao fundo.";
+                        break;
+                    case 100:
+                        paragrafo = "background('imagens/cenarios/02.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -305,10 +316,24 @@ public class Capitulos {
                 //caminho H:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')J2 quebra o vidro e mata o SH e todos olham assustados para ele(a)";
+                        paragrafo = "background('imagens/cenarios/05.png')Enquanto correm, os especialistas percebem que o Super Humano está muito proximo. \n"
+                                + "-O que vamos fazer? - Pergunta Jules.\n"
+                                + "-Temos que tentar despista-lo!- Fala Jack.\n"
+                                + "Joshua ouvindo a discussão que se seguiu entre os dois sobre a melhor forma de agir, acabou seguindo seus instintos.\n"
+                                + "Em um súbito, parou de correr e se dirigiu a pequena janela da porta ao lado. ";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/05.png')Com o cotovelo, socou o vidro, fazendo-o se quebrar em alguns pedaços. \n"
+                                + "Com uma agilidade impressionante, pegou um pedaço de vidro que ficara pendurado na porta. Esperou alguns segundos suficientes para o super humano chegar ao seu lado, quando rapidamente se virou em direção a ele.\n"
+                                + "Jack e Jules ao ouvirem o vidro quebrando param de correr e olham assustados para a cena.";
+                        break;
+                    case 99:
+                        paragrafo = "background('imagens/cenarios/05.png')Joshua empunhava um pedaço pontiagudo de vidro e o cravava embaixo do queixo do super humano, o arrastando pelo pescoço do mesmo. \n"
+                                + "Logo o sangue começava a jorrar, fazendo-os arregalaram ainda mais os olhos.\n"
+                                + "O super humano cai morto sob os pés ensanguentados de Joshua, enquanto todos o olham com espanto por tamanha brutalidade e sangue frio.";
+                        break;
+                    case 100:
+                        paragrafo = "background('imagens/cenarios/05.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -319,10 +344,25 @@ public class Capitulos {
                 //caminho I:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')explodem a ponte de acesso ao IA e vão para o CP";
+                        paragrafo = "background('imagens/cenarios/05.png')Enquanto os especialistas seguem em direção ao centro de pesquisa, Joshua resolve tomar uma atitude de precaução.\n"
+                                + "Retirando rapidamente alguns explosivos que carregava nos bolsos da calça, ele os coloca em pontos estrategicos da ponte que liga a Ilha Artificial ao resto do complexo.\n"
+                                + "Após conferir cada um dos explosivos, ele aguarda alguns especialistas sairem da ponte para então começar a correr até eles.";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/05.png')Sua corrida chama a atenção dos demais que o olham com interrogação em suas faces. Provavelmente eles não sonham com todas as munições que Joshua detinha em seus bolsos, muito menos o quanto de estratégia militar ele adquirira na vida.\n"
+                                + "Assim que se aproximou dos outros 4 especialistas gritou:\n"
+                                + "-Abaixem-se e coloquem a mão sobre as orelhas! Agora! ";
+                        break;
+                    case 99:
+                        paragrafo = "background('imagens/cenarios/05.png')Atirando-se ao chão, ele seguiu as próprias ordens, sem ter a chance de conferir se seus colegas o imitaram pois logo apertou o gatilho para a explosão.\n"
+                                + "O barulho foi alto o bastante para deixa-los tontos, além das pedras que os atingiram com entulho da explosão. ";
+                        break;
+                    case 100:
+                        paragrafo = "background('imagens/cenarios/05.png')Após um tempo se recuperando, os especialistas levantam assustados, mas se alegram quando veem a ponte de ligação totalmente destruída. \n"
+                                + "Com uma esperança nascendo em seu interior seguiram para o centro de pesquisa. Alguma felicidade e esperança no peito. Mas, em suas mentes, a angustia por tudo que viram em tão pouco tempo. ";
+                        break;
+                    case 101:
+                        paragrafo = "background('imagens/cenarios/05.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -333,11 +373,18 @@ public class Capitulos {
                 //caminho J:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Encontram alguns computadores funcionando, mas sem comunicação com o continente. Acham um áudio do momento \n"
-                                + " do ataque, numa discussão entre o CP e a Segurança.";
+                        paragrafo = "background('imagens/cenarios/05.png')Atirando e correndo. Atirando e correndo. O cansaço tomava conta dos especialistas. Poderia até se dizer que tanto temor em suas mentes os desviava da intenção real de acertar um alvo. Na realidade, qualquer lugar que fosse, atirar lhes fazia tomar um pouco de controle sobre a situação. ";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/05.png')O desespero fluindo sobre seus corpos, junto a exaustão de tudo que passaram faziam suas me tes estarem tão alertas que acabavam por ser tornarem inoperantes a tantos estímulos.\n"
+                                + "Cada lugar podia ser o fim para um deles, como os corpos naquela recepção. O sangue, a confusão. ";
+                        break;
+                    case 99:
+                        paragrafo = "background('imagens/cenarios/02.png')A mente dos especialistas tentava ao máximo, que aquela não se tornasse sua própria realidade.\n"
+                                + "Chegando ao centro de pesquisa, os especialistas se utilizam da senha para trancar o portão da ponte. Assim, acreditavam que manteriam maior segurança no centro, evitanto que certos monstros pudessem circular livremente entre os espaços.";
+                        break;
+                    case 100:
+                        paragrafo = "background('imagens/cenarios/02.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -348,18 +395,22 @@ public class Capitulos {
                 //caminho K:
                 switch ((int) numParagrafo) {
                     case 97:
-                        paragrafo = "background('imagens/cenarios/02.png')Ta fugindo dos SH doido, com as arminha.";
+                        paragrafo = "background('imagens/cenarios/05.png')Fugindo dos super humanos, os especialistas empunham suas armas, enquanto revezam para atirar e recarregar a munição especial.\n"
+                                + "Por poucos segundos eles conseguem transpor o portão, e fecha-lo, chegando a prender os dedos de um super humano que,por pouco, quase os alcançara.\n"
+                                + "Aliviados, alguns especialistas suspiram.";
                         break;
                     case 98:
-                        paragrafo = "background('imagens/cenarios/02.png')chegam no CP e tem tempo de fechar o portão.";
+                        paragrafo = "background('imagens/cenarios/02.png')Outros largam suas armas enquanto curvam-se a frente para tomar respirações mais profundas.\n"
+                                + "Assim que o momento de recuperar o fôlego acaba eles se encaminham para o lado em direção a saída.\n"
+                                + "Estavam presos. Encurralados.\n"
+                                + "Não tinham como abrir novamente o portão, afinal, do outro lado estavam esperando por eles.";
                         break;
                     case 99:
-                        paragrafo = "background('imagens/cenarios/02.png')quando olham pro lado, em direção a saida, tem um SH la."
-                                + "todo mundo corre.\n"
-                                + "cabou.";
+                        paragrafo = "background('imagens/cenarios/02.png')Não podiam seguir em frente, pois ali os encarando com fúria estava um super humano, seguido por um grupo razoavelmente grande atrás de si.\n"
+                                + "As armas estavam quase sem munição. Não tinham tempo. Poucas opções de ação. E uma mínima possibilidade de vencer. O que fariam agora os especialistas para viver?";
                         break;
                     case 100:
-                        paragrafo = "background('imagens/cenarios/02.png')- - FIM - -";
+                        paragrafo = "background('imagens/cenarios/02.png')Continua...";
                         break;
                     default:
                         paragrafo = "nulo";
@@ -597,21 +648,6 @@ public class Capitulos {
                     case 99:
                         atualizaCaminhoFrente('d', 3);
                         break;
-                    case 100:
-                        atualizaCaminhoFrente('e', 3);
-                        break;
-                    case 101:
-                        atualizaCaminhoFrente('f', 3);
-                        break;
-                    case 102:
-                        atualizaCaminhoFrente('g', 3);
-                        break;
-                    case 103:
-                        atualizaCaminhoFrente('h', 3);
-                        break;
-                    case 104:
-                        atualizaCaminhoFrente('i', 3);
-                        break;
                 }
                 break;
             case 69:
@@ -621,8 +657,20 @@ public class Capitulos {
                         atualizaCaminhoFrente('b', 3);
                         break;
                     case 98:
+                        atualizaCaminhoFrente('c', 3);
+                        break;
+                    case 99:
+                        atualizaCaminhoFrente('d', 3);
+                        break;
+                    case 100:
+                        atualizaCaminhoFrente('e', 3);
+                        break;
+                    case 101:
+                        atualizaCaminhoFrente('f', 3);
+                        break;
+                    case 102:
                         if (caminho.charAt(caminho.indexOf("E") - 1) == 'B') {
-                            atualizaCaminhoFrente('c', 3);
+                            atualizaCaminhoFrente('g', 3);
                         } else {
                             atualizaCaminhoFrente('K', 2);
                         }
@@ -636,13 +684,10 @@ public class Capitulos {
                         atualizaCaminhoFrente('b', 3);
                         break;
                     case 98:
-                        atualizaCaminhoFrente('c', 3);
-                        break;
-                    case 99:
                         if (caminho.charAt(caminho.indexOf("F") - 1) == 'B') {
                             atualizaCaminhoFrente('H', 2);
                         } else {
-                            atualizaCaminhoFrente('d', 3);
+                            atualizaCaminhoFrente('c', 3);
                         }
                         break;
                 }
@@ -656,6 +701,9 @@ public class Capitulos {
                     case 98:
                         atualizaCaminhoFrente('c', 3);
                         break;
+                    case 99:
+                        atualizaCaminhoFrente('d', 3);
+                        break;
                 }
                 break;
             case 72:
@@ -663,6 +711,12 @@ public class Capitulos {
                 switch ((int) numParagrafo) {
                     case 97:
                         atualizaCaminhoFrente('b', 3);
+                        break;
+                    case 98:
+                        atualizaCaminhoFrente('c', 3);
+                        break;
+                    case 99:
+                        atualizaCaminhoFrente('d', 3);
                         break;
                 }
                 break;
@@ -672,6 +726,15 @@ public class Capitulos {
                     case 97:
                         atualizaCaminhoFrente('b', 3);
                         break;
+                    case 98:
+                        atualizaCaminhoFrente('c', 3);
+                        break;
+                    case 99:
+                        atualizaCaminhoFrente('d', 3);
+                        break;
+                    case 100:
+                        atualizaCaminhoFrente('e', 3);
+                        break;
                 }
                 break;
             case 74:
@@ -680,9 +743,15 @@ public class Capitulos {
                     case 97:
                         atualizaCaminhoFrente('b', 3);
                         break;
+                    case 98:
+                        atualizaCaminhoFrente('c', 3);
+                        break;
+                    case 99:
+                        atualizaCaminhoFrente('d', 3);
+                        break;
                 }
                 break;
-            case 75:
+            case 75: 
                 //caminho K:
                 switch ((int) numParagrafo) {
                     case 97:
